@@ -1,0 +1,29 @@
+@media only screen and (min-width: 769px) and (max-width: 1290px){
+
+    .content header .user {
+        margin: 20px 0 20px 36px;
+    }
+
+    .video-container {
+        grid-template-columns: minmax(400px, 2fr) minmax(180px, 1fr);
+        grid-template-rows: 80px 340px;
+    }
+
+    .video-container .title {
+        font-size: 1em;
+        letter-spacing: 0em;
+        line-height: 20px;
+    }
+
+    .resume{
+        height: 300px;
+    }
+
+    .p-after{
+        width: 400px;
+    }
+    .scroll-details {
+        height: 290px;
+    }
+
+}
