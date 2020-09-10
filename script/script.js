@@ -1,9 +1,10 @@
 var btnSeeMore = document.querySelector('.btnSeeMore');
-var resume = document.querySelector('.resume')
+var resume = document.querySelector('.resume');
 
 btnSeeMore.addEventListener('click', function() {
     resume.classList.add('resume-vm');
     btnSeeMore.classList.add('btnDisappear');
+
 })
 
 var contentDiscussion = document.querySelector('.content-discussion');
